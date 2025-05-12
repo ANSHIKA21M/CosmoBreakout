@@ -1,11 +1,59 @@
-# [Space Invaders](https://youtu.be/UILUMvjLEVU)
-In this tutorial, you will learn how to code space invaders with the built-in java awt/swing graphics library. 
+# CosmoBreakout
 
-Throughout the tutorial, you will learn how to create the game loop, create a jframe and jpanel, draw images on the jpanel, add click handlers to move the ship and fire bullets, randomly generate space invader aliens and move them across the screen, detect collisions between the bullets and aliens, and add a running score. In addition, you will learn how to reset the game and randomly generate aliens of different colors every time a set of aliens have been cleared.
+![Game Screenshot](OIP.jpg)
 
-[How to setup Java with Visual Studio Code](https://youtu.be/BB0gZFpukJU)
+## Description
 
-![space-invaders-java-ss](https://github.com/ImKennyYip/space-invaders-java/assets/78777681/811fdb11-02af-4a23-be25-0df909d7ff08)
+CosmoBreakout is a Java implementation of the classic Space Invaders arcade game. Defend Earth against waves of alien invaders in this action-packed retro gaming experience!
 
-## Homework:
-You can continue working on this project if you like. You can add additional features to the game, such as letting the aliens fire bullets at you, or giving the aliens health points (HP) so that certain aliens can take more than one bullet. Another feature you can add is keeping track of the high score every time the player resets the game.  
+## Features
+
+- Classic arcade-style gameplay
+- Multiple alien types with different appearances
+- Player-controlled spaceship with shooting capabilities
+- Intuitive controls and responsive gameplay
+- Splash screen and main menu interface
+
+## Technologies Used
+
+- Java
+- Swing GUI toolkit
+- Object-oriented programming principles
+
+## How to Play
+
+1. Clone the repository
+2. Compile and run the `App.java` file
+3. Use left and right arrow keys to move your ship
+4. Press spacebar to shoot at the invading aliens
+5. Destroy all aliens before they reach your position!
+
+## Project Structure
+
+- `App.java` - Main application entry point
+- `SplashScreen.java` - Initial loading screen
+- `MainMenu.java` - Game menu interface
+- `Game.java` - Core game logic
+- `Player.java` - Player ship implementation
+- `Alien.java` - Enemy implementation
+- `Bullet.java` - Projectile mechanics
+
+## Future Enhancements
+
+- Score tracking system
+- Multiple levels with increasing difficulty
+- Sound effects and background music
+- Power-ups and special weapons
+
+## Author
+
+- Java and Android Developer exploring AI integration in gaming
+
+## License
+
+This project is available for educational purposes and personal use.
+
+## Acknowledgments
+
+- Inspired by the classic Space Invaders arcade game
+- Special thanks to the Java gaming community
